@@ -45,7 +45,7 @@ model.fit(X, y, epochs=100, verbose=2)
 
 # Generate text using the trained model
 seed_text = "This is"
-next_words = 5
+next_words = 4
 
 for _ in range(next_words):
     token_list = tokenizer.texts_to_sequences([seed_text])[0]
